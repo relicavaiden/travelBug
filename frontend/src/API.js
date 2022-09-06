@@ -2,7 +2,7 @@ import axios from "axios";
 
 var baseURL;
 
-baseURL = "http://127.0.0.1:8000/";
+baseURL = "https://travel-bug-techis-backend.herokuapp.com/";
 const api = axios.create({
   baseURL: baseURL,
   headers: {
